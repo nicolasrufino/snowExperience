@@ -12,10 +12,10 @@
         Console.Clear();
         // string[] snow = File.ReadAllLines("snowWelcome.txt"); 
         // Console.WriteLine($"{snow}");
-        if (File.Exists("snowWelcome.txt"))
+        if (File.Exists("snowWel.txt"))
         {
-            string[] snow = File.ReadAllLines("snowWelcome.txt");
-            Console.WriteLine(snow);
+            string[] snow = File.ReadAllLines("snowWel.txt");
+            // Console.WriteLine(snow);
             foreach(var i in snow){
                 Console.WriteLine(i);
             }
